@@ -1,6 +1,6 @@
 {
   "name": "config-ext",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "helpful extension methods for [`config`](https://www.npmjs.com/package/config)",
   "repository": "git@github.com:js-n/config-ext.git",
   "main": "obj",
