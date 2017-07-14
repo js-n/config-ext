@@ -7,6 +7,6 @@ export function getOrElse<T>(config: IConfig, path: string, fallback: T): string
 
 export function assert(config: IConfig, path: string, message?: string): void {
   if (!config.has(path)) {
-    throw new Error('missing required config: ' + path + message ? '. ' +message : '')
+    throw new Error('missing required config: ' + path + (message ? '. ' + message : ''))
   }
 }
