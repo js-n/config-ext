@@ -1,0 +1,21 @@
+{
+  "name": "config-ext",
+  "version": "0.0.0",
+  "description": "helpful extension methods for [`config`](https://www.npmjs.com/package/config)",
+  "main": "obj",
+  "types": "obj",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.26.1"
+  },
+  "devDependencies": {
+    "@types/config": "0.0.32",
+    "@types/node": "^8.0.13",
+    "typescript": "^2.4.1"
+  }
+}
