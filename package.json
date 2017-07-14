@@ -5,6 +5,10 @@
   "repository": "git@github.com:js-n/config-ext.git",
   "main": "obj",
   "types": "obj",
+  "files": [
+    "obj/*.js",
+    "obj/*.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
